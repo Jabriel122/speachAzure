@@ -1,0 +1,15 @@
+
+Criei esse projeto para dar uma estuda na biblioteca Expo-av 
+(Me basiei nesse video aqui https://www.youtube.com/watch?v=XLILd0R8btg&t=577s)
+Só que deu um problema que eu acredito que seja um conflito de linguagem de programação, pois no video o cara TS e JS. Acredito que seja isso tentei pesquisar mais a fundo o motivo desse erro e ainda não entendi muito bem. Mas noite que quando eu tiro o:
+
+<Audio.Recording | null>
+	e
+<string | null>
+
+	de
+const [recording, setRecording] = useState<Audio.Recording | null>(null);
+const [recordingFileURI, setRecordingFileURI] = useState<string | null>(null);
+
+O app volta a funcionar
+
